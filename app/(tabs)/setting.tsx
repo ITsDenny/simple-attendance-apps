@@ -1,8 +1,8 @@
 import { Text, View,StyleSheet } from "react-native";
 import { Link } from "expo-router";
-export default function Index() {
+export default function Setting() {
   return (
-    <View style={styles.homeContainer}>
+    <View style={styles.settingContainer}>
       <Text>Home Screen</Text>
       <Link href='/details'>Details</Link>
     </View>
@@ -10,7 +10,7 @@ export default function Index() {
 }
 
 const styles = StyleSheet.create({
-  homeContainer:{
+  settingContainer:{
     flex: 1,
     justifyContent: "center",
     alignItems: "center",

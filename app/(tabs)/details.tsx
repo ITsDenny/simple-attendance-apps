@@ -1,16 +1,18 @@
+
 import { Text, View,StyleSheet } from "react-native";
 import { Link } from "expo-router";
-export default function Index() {
+
+export default function DetailScreen() {
   return (
-    <View style={styles.homeContainer}>
-      <Text>Home Screen</Text>
-      <Link href='/details'>Details</Link>
+    <View style={styles.detailContainer}>
+      <Text>Details tes dari root</Text>
+      <Link href='/index'>Back to home</Link>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  homeContainer:{
+  detailContainer:{
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
